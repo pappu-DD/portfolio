@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+.header {
+  height: 100vh;
+  width: 100%;
+  /* background-color: rgb(32, 29, 29); */
+  color: white;
+  background-image: url(image/image-bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav {
+  /* border: red solid 2px; */
+  margin: 0px 10px;
+  height: 80px;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-top: 10px;
+}
+.logo img {
+  height: 80px;
+  width: 168px;
+  object-fit: cover;
+  /* box-shadow: 0px 0px 13px yellow; */
+}
+nav ul {
+  display: flex;
+  margin: auto 0px;
+}
+nav ul li {
+  display: inline;
+  margin: 0px 25px;
+  font-size: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+.skill {
+  color: rgb(255, 255, 0);
+}
+nav ul li a:hover {
+  color: rgb(255, 255, 0);
+  font-weight: 800;
+}
+.join1 {
+  margin: auto 0px;
+}
+.join-btn {
+  /* border: red solid 2px; */
+  padding: 5px 8px;
+  border-radius: 20px;
+  background-color: rgb(236, 11, 105);
+  box-shadow: 0px 0px 10px yellow;
+}
+.join-btn:hover {
+  color: white;
+  cursor: pointer;
+  background-color: rgb(44, 41, 41);
+  transition: 0.5s;
+}
+.intro {
+  /* border: red solid 2px; */
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  line-height: 2.5em;
+}
+.intro h4 {
+  font-size: 20px;
+}
+.intro h1 {
+  font-size: 60px;
+}
+.intro h1 span {
+  color: yellow;
+}
+.intro h3 {
+  font-size: 20px;
+}
+.name {
+  display: flex;
+  position: relative;
+  width: 320px;
+  /* display: inline-block; */
+}
+.name input {
+  padding-left: 10px;
+  border: yellow solid 2px;
+  border-radius: 20px;
+  font-size: 17px;
+  height: 41px;
+  width: 100%;
+  border: none;
+  border: red solid 2px;
+}
+.sumbit-btn {
+  background-color: #ec0b69;
+  color: white;
+  font-size: 18px;
+  border: none;
+  /* border: rgb(255, 208, 0) solid 2px; */
+  height: 39px;
+  width: 82px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px yellow;
+  margin: 3px 0px 0px -82px;
+}
+.sumbit-btn:hover {
+  cursor: pointer;
+  background-color: rgb(44, 41, 41);
+  transition: 0.5s;
+}
+
+/* *********************about section*************************** */
+
+.about {
+  /* border: red solid 2px; */
+  width: 100%;
+  background-color: rgb(26, 25, 25);
+  padding: 100px 0px;
+}
+.about img {
+  width: 430px;
+}
+.about-text {
+  color: white;
+  /* border: red solid 2px; */
+  width: 550px;
+}
+.about-detail {
+  /* border: red solid 2px; */
+  width: 1130px;
+  margin: 0px auto;
+  display: flex;
+  max-width: 95%;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h1 {
+  font-size: 50px;
+}
+.about-text h2 {
+  font-size: 25px;
+  margin: 10px 0px;
+}
+.about-text h3 {
+  font-size: 15px;
+  line-height: 23px;
+  letter-spacing: 2px;
+}
+.designer {
+  color: yellow;
+}
+.about-text button {
+  background-color: #ec0b69;
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 10px;
+  height: 39px;
+  width: 90px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px yellow;
+}
+.about-text button:hover {
+  background-color: rgb(44, 41, 41);
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+/* ************** service **************** */
+.service {
+  background-color: black;
+  color: white;
+  padding: 50px 0px;
+}
+.service h1 {
+  width: 1130px;
+  font-size: 60px;
+  margin: 20px auto;
+  text-align: center;
+}
+.box {
+  /* border: red solid 1px; */
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+.box1 p {
+  /* border: #ec0b69 solid 2px; */
+  border-radius: 15px;
+  background-color: rgb(46, 42, 42);
+  width: 350px;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 10px;
+  overflow: hidden;
+  font-family: "Redressed";
+}
+.box1 img {
+  width: 90px;
+}
+.box1 h3 {
+  font-size: 30px;
+  margin: 10px 0px;
+}
+
+.service-btn {
+  background-color: #ec0b69;
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 10px;
+  height: 39px;
+  width: 110px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px yellow;
+}
+.service-btn:hover {
+  background-color: rgb(44, 41, 41);
+  cursor: pointer;
+  transition: 0.7s;
+}
+/* **************** build website *************** */
+.build-website {
+  height: 300px;
+  /* border: red solid 2px; */
+  background-color: rgb(46, 42, 42);
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.take-order h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.contact-btn {
+  background-color: #ec0b69;
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 10px;
+  height: 39px;
+  width: 110px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px yellow;
+}
+.contact-btn:hover {
+  background-color: rgb(44, 41, 41);
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer h1 {
+  font-size: 40px;
+}
+footer h1 span {
+  color: yellow;
+}
+footer p {
+  font-size: 15px;
+  width: 300px;
+  margin: 20px 0px;
+  text-align: center;
+  font-family: cursive;
+}
+.social-media {
+  /* border: #ec0b69 solid 2px; */
+  width: 200px;
+  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-media img {
+  width: 30px;
+}
+footer h2 {
+  margin-top: 60px;
+  font-size: 15px;
+}
+.social-media img:hover {
+  transform: scale(1.5);
+  transition: 0.2s;
+  cursor: pointer;
+}
